@@ -22,3 +22,7 @@ int getsum(int x) {
 	}
 	return sum;
 }
+
+int getsum_range(int l, int r) {
+	return getsum(r) - getsum(l - 1);
+}
